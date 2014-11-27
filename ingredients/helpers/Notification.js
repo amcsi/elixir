@@ -10,7 +10,7 @@ module.exports = function() {
             subtitle: subtitle,
             icon: __dirname + '/../../icons/laravel.png',
             message: ' '
-        });
+        })();
     };
 
     this.error = function(e, subtitle) {
